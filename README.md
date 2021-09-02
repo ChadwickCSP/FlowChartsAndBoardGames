@@ -29,7 +29,7 @@ implementation.
 * [Grading](#grading)
     * [Computational Thinking](#computational-thinking)
     * [Computing, Programming, and Practice](#computing-programming-and-practice)
-    * [Skills of a Student](#skills-of-a-student)
+    * [Skills of a Programmer](#skills-of-a-programmer)
 * [Getting Help](#getting-help)
 * [Appendix A: Flow Chart Components](#appendix-a-flow-chart-components)
 * [Appendix B: Keywords](#appendix-b-keywords)
