@@ -15,11 +15,29 @@ implementation.
 
 ## Sign up for the project
 
-TODO
+Sign up for the project here: [https://classroom.github.com/a/spbOsNka](https://classroom.github.com/a/spbOsNka)
 
 ## Clone your repository
 
-TODO
+After you have signed up for the project, you can clone it using Github Desktop. 
+
+1. Click the Current Repository drop down
+
+![Current Repo](support/current_repo.png)
+
+2. Click `Add` > `Clone Repository`
+
+![Step 2](support/step2.png)
+
+3. Select the `GitHub.com` tab
+
+![Step 3](support/step3.png)
+
+4. Select the `flow-charts-and-board-games-XXXXX` respository and click clone
+
+![Step 4](support/step4.png)
+
+5. Open the project in `Visual Studio Code`
 
 ## Milestone 1
 
@@ -124,7 +142,7 @@ The following is a segment of source code which is used in a 5211 simulator.
 ```
 ![Code Segment 3](support/code_segment_3.png)
 
-### Submitting Milestone 1
+### Milestone 1 Deliverables
 
 To submit Milestone 1, you should create a new folder in your project named
 `5211`. Within the folder, you should include a README.md file containing your
@@ -153,19 +171,102 @@ Due Dates:
 * **E Period** - Monday Sept 13th @ 11:59 PM 
 * **C Period** - Tuesday Sept 14th @ 11:59 PM
 
+For Milestone 2, you will translate the rules for a game of your choosing into a
+flow chart. You will create all of your own Entry Points, Processes, Decision,
+Connectors, and Terminal blocks. Remember, keeping the blocks as simple as
+possible will make it easier to translate into a computer program. If a decision
+block feels as though it requires multiple smaller questions to answer, you
+should break it into those smaller questions. 
+
+For this milestone, you are expected to work individually.
+
 ### Select a Game
+
+First, select a game and ask your instructor to approve it. You can do just
+about any game you want. However, if you choose a game that is complex, your
+flow chart will require more time. You will have at least one class period
+dedicated to this Milestone and are expected to work on it outside of class for
+at least one hour. Try to gauge the complexity to about 2 hours of work.
 
 ### Create a Flow Chart for your game
 
+Now that you have selected a game, create a flow chart for it. Start by
+sketching out the overall structure of the game: identify the major sequences,
+selections, and iterations. Once you have a basic idea of the overall structure
+choose your Entry Points and think about where you will add connectors. Finally,
+fill in your sequences.
+
+For this section of the project you may draw your flow chart or use computer
+software to create it. **Note**: It typically takes longer to make a flow chart
+on a computer. Mx. Collard likes this software:
+[https://pencil.evolus.vn/](https://pencil.evolus.vn/)
+
+### Milestone 2 Deliverables
+
+To submit Milestone 2, you should create a new folder in your project named
+after your game. Within the folder, you should include a README.md file
+containing the name of your game and your flow charts.
+
+The images may be scans, pictures taken with a camera, or digitally created
+images.
+
+When all of your work has been committed and pushed, you will create a tag
+called `milestone-2`. To do this:
+
+1. Open Github Desktop
+2. Open your project repository
+3. Select the `History` Tab
+4. Right click on the commit that will be your submission
+5. Click `Create Tag`
+6. Name the tag `milestone-2`
+7. Click `Push origin`
+8. Verify your tag is available on Github
+
 ## Milestone 3
-Due Dates: **E Period** - Wednesday Sept 15th @ 11:59 PM **C Period** - Friday
-Sept 17th @ 11:59 PM
+Due Dates: 
 
-### Identifying Sequences
+* **E Period** - Wednesday Sept 15th @ 11:59 PM 
+* **C Period** - Friday Sept 17th @ 11:59 PM
 
-### Identifying Selection
+For this milestone, you will deconstruct your flow chart and identify 3
+significant sequences, 3 selections, and 3 iterations.
 
-### Identifying Iteration
+For each sequence, you must explain why the sequence is significant.
+
+For each selection, you must explain the conditions of the selection and the
+result of each condition.
+
+For each iteration, you must explain under what conditions the iteration
+continues, under which conditions the iteration stops, and what is the end
+result of the iteration.
+
+**Note**: To receive a score of Advanced, you should include an image which
+calls attention to the specific sequence, selection, or iteration. For example:
+
+![Example](support/setup.png)
+
+A general rule of thumb is to make the person grading your assignments life
+easier.
+
+### Milestone 3 Deliverables
+
+To submit Milestone 3, you should update your games README.md file to contain
+your explanation for your sequences, selections, and itereations.
+
+The images may be scans, pictures taken with a camera, or digitally created
+images.
+
+When all of your work has been committed and pushed, you will create a tag
+called `milestone-3`. To do this:
+
+1. Open Github Desktop
+2. Open your project repository
+3. Select the `History` Tab
+4. Right click on the commit that will be your submission
+5. Click `Create Tag`
+6. Name the tag `milestone-3`
+7. Click `Push origin`
+8. Verify your tag is available on Github
 
 ## Grading
 
@@ -339,7 +440,8 @@ help you catch any formatting errors you might have.
 ### Headers
 
 In Markdown, headers are denoted using one or more octothorpes (`#`) followed by
-the text you would like for the header. The more octothorpes you use, the smaller the header will be. For example:
+the text you would like for the header. The more octothorpes you use, the
+smaller the header will be. For example:
 
 ```
 # Header 1
@@ -357,7 +459,9 @@ Use headers to create different sections in your Markdown files.
 
 ### Code Boxes
 
-Sometimes you want to be able to provide preformatted code with syntax highlighting. To do this, you surround the code in three backticks: (```) For example:
+Sometimes you want to be able to provide preformatted code with syntax
+highlighting. To do this, you surround the code in three backticks: (```) For
+example:
 
 ![Backticks](support/backticks.png)
 
@@ -379,7 +483,9 @@ Produces the following:
         }
 ```
 
-Notice, there is no syntax highlighting. To ask for syntax highlighting, you can add the language to highlight at the end of the three backticks: (```typescript) For example:
+Notice, there is no syntax highlighting. To ask for syntax highlighting, you can
+add the language to highlight at the end of the three backticks: (```typescript)
+For example:
 
 ![Backticks](support/backticks2.png)
 
@@ -403,12 +509,18 @@ Produces the following:
 
 ### Images
 
-Often times you will need to include images in your Markdown documents. To do this you must first place an image file in your repository. Then, you create a reference to it using the following syntax: `![Image Text](path/to/image)`.
+Often times you will need to include images in your Markdown documents. To do
+this you must first place an image file in your repository. Then, you create a
+reference to it using the following syntax: `![Image Text](path/to/image)`.
 
-For example, there is an image named `connector.png` located in the `support` folder of this project. To reference the image you could write: `![Connector Image](support/connector.png)`
+For example, there is an image named `connector.png` located in the `support`
+folder of this project. To reference the image you could write: `![Connector
+Image](support/connector.png)`
 
 This would produce the following:
 
 ![Connector Image](support/connector.png)
 
-**Note**: The text between the square brackets (`[]`) is what is displayed if the image cannot be found or if the person accessing the document is seeing impaired. 
+**Note**: The text between the square brackets (`[]`) is what is displayed if
+the image cannot be found or if the person accessing the document is seeing
+impaired. 
