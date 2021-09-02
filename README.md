@@ -11,7 +11,29 @@ instructions into another flow chart that you will use to identify key
 components that you would have to write if you were to create a computer
 implementation.
 
-[Sign up for the project](#sign-up-for-the-project)
+* [Sign up for the project](#sign-up-for-the-project)
+* [Clone your repository](#clone-your-repository)
+* [Milestone 1](#milestone-1)
+    * [5-2-1-1 Flow Chart](#5-2-1-1-flow-chart)
+    * [Identifying Code](#identifying-code)
+        * [Code Segment 1](#code-segment-1)
+        * [Code Segment 2](#code-segment-2)
+        * [Code Segment 3](#code-segment-3)
+    * [Milestone 1 Deliverables](#milestone-1-deliverables)
+* [Milestone 2](#milestone-2)
+    * [Select a Game](#select-a-game)
+    * [Create a Flow Chart for your game](#create-a-flow-chart-for-your-game)
+    * [Milestone 2 Deliverables](#milestone-2-deliverables)
+* [Milestone 3](#milestone-3)
+    * [Milestone 3 Deliverables](#milestone-3-deliverables)
+* [Grading](#grading)
+    * [Computational Thinking](#computational-thinking)
+    * [Computing, Programming, and Practice](#computing-programming-and-practice)
+    * [Skills of a Student](#skills-of-a-student)
+* [Getting Help](#getting-help)
+* [Appendix A: Flow Chart Components](#appendix-a-flow-chart-components)
+* [Appendix B: Keywords](#appendix-b-keywords)
+* [Appendix C: README.md](#appendix-c-readmemd)
 
 ## Sign up for the project
 
