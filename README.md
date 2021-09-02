@@ -25,8 +25,7 @@ TODO
 
 Due Dates: 
 * **E Period** - Wednesday Sept 8th @ 11:59 PM 
-* **C Period** - Thursday
-Sept 9th @ 11:59 PM
+* **C Period** - Thursday Sept 9th @ 11:59 PM
 
 For Milestone 1, you must translate the rules for a 2 player game of 5-2-1-1
 into a flow chart using the provided Entry Points, Processes, Decision,
@@ -57,7 +56,7 @@ milestone, you may work in groups of up to 3 students.
 Below are three code segments for a computer implementation of 5211. For each
 code segment, do the following:
 
-1. Identify a **signifiant** sequence or state that there are no significant
+1. Identify a **significant** sequence or state that there are no significant
    sequences. Explain why the sequence you selected is significant or why there
    are no significant sequences.
 
@@ -152,8 +151,7 @@ called `milestone-1`. To do this:
 
 Due Dates: 
 * **E Period** - Monday Sept 13th @ 11:59 PM 
-* **C Period** - Tuesday
-Sept 14th @ 11:59 PM
+* **C Period** - Tuesday Sept 14th @ 11:59 PM
 
 ### Select a Game
 
@@ -188,21 +186,15 @@ It is important for other people to be able to understand and follow your work.
 In this assignment, you will demonstrate your ability to commit your work to
 your repository, write reasonable commit messages, and provide a REAME.md
 document describing how your flow diagram relates to your chosen game's
-instructions. | Advanced | Proficient | Basic | Below Basic
-|
-|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------|
-|
-| Student created a tag for all milestones | Student tagged some of their
-milestones                                      | Student did not tag any of
-their milestones               | | Student's README.md is properly formatted and
-contains images of their flow diagrams embedded directly into the README.md |
-Student's README.md contains a formally written explanation describing how their
-flow diagram meets the rules of their chosen game. | Student provides a
-README.md in their repository. | Student does not provide a README.md in their
-repository. | | | Student commits and pushes their flow diagram images to their
-repository. | Student commits and pushes a flow diagram for 5-2-1-1 into their
-repository. | Student does not provide images of their flow diagrams    |
+instructions. 
 
+
+
+| Advanced                                                                                                                   | Proficient                                                                                                                           | Basic                                                                         | Below Basic                                                  |
+|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------|
+|                                                                                                                            | Student created a tag for all milestones                                                                                             | Student tagged some of their milestones                                       | Student did not tag any of their milestones                  |
+|                                                                                                                            | Student commits and pushes their flow diagram images to their repository.                                                            | Student commits and pushes a flow diagram  for 5-2-1-1 into their repository. | Student does not include a complete flow diagram for 5-2-1-1 |
+| Student's README.md is properly formatted and contains images of their flow diagrams  embedded directly into the README.md | Student's README.md contains a formally  written explanation describing how their flow diagram meets the rules of their chosen game. | Student provides a README.md in their repository.                             | Student does not provide a README.md in their repository.    |
 ### Skills of a Student
 
 Your skills of a student covers your Student Log repository, your in class time
@@ -243,10 +235,23 @@ email with at least two proposed times you would like to meet.
 ## Appendix A: Flow Chart Components
 
 ### Entry Point
+![Entry Point](support/entry_point.png)
 
-### Processes
+An entry point serves as a label for the start of a flow chart. An entry point
+should have no incomming arrows and should contain exactly one outgoing arrow.
+It is denoted as a box with round corners.
+
+### Process
+![Process](support/process.png)
+
+A process describes an action that is taken. A process must have at least one
+(but may have more) incomming arrow and exactly 1 outgoing arrow.
 
 ### Decision
+![Decision](support/decision.png)
+
+A decision block describes a branching path in a flow chart that is based on a
+yes or no condition. A decision must have at least one (but may have more) incomming arrow and must contain exactly two outgoing arrows: one for the yes condition and one for the no condition.
 
 ### Connector
 
