@@ -28,7 +28,8 @@ implementation.
     * [Milestone 3 Deliverables](#milestone-3-deliverables)
 * [Grading](#grading)
     * [Computational Thinking](#computational-thinking)
-    * [Computing, Programming, and Practice](#computing-programming-and-practice)
+    * [Computing, Programming, and
+      Practice](#computing-programming-and-practice)
     * [Skills of a Programmer](#skills-of-a-programmer)
 * [Getting Help](#getting-help)
 * [Appendix A: Flow Chart Components](#appendix-a-flow-chart-components)
@@ -37,11 +38,13 @@ implementation.
 
 ## Sign up for the project
 
-Sign up for the project here: [https://classroom.github.com/a/spbOsNka](https://classroom.github.com/a/spbOsNka)
+Sign up for the project here:
+[https://classroom.github.com/a/spbOsNka](https://classroom.github.com/a/spbOsNka)
 
 ## Clone your repository
 
-After you have signed up for the project, you can clone it using Github Desktop. 
+After you have signed up for the project, you can clone it using Github Desktop.
+
 
 1. Click the Current Repository drop down
 
@@ -320,9 +323,9 @@ instructions.
 | Student's README.md is properly formatted and contains images of their flow diagrams  embedded directly into the README.md | Student's README.md contains a formally  written explanation describing how their flow diagram meets the rules of their chosen game. | Student provides a README.md in their repository.                             | Student does not provide a README.md in their repository.    |
 ### Skills of a Programmer
 
-Your skills of a programmer covers your Student Log repository, your in class time
-management, meeting deadlines, asking for help when needed, and helping others
-when able.
+Your skills of a programmer covers your Student Log repository, your in class
+time management, meeting deadlines, asking for help when needed, and helping
+others when able.
 
 | Advanced                                                                                                                  | Proficient                                                                                                                                                | Basic                                                                                                                                   | Below Basic                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
