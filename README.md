@@ -23,7 +23,9 @@ TODO
 
 ## Milestone 1
 
-Due Dates: **E Period** - Wednesday Sept 8th @ 11:59 PM **C Period** - Thursday
+Due Dates: 
+* **E Period** - Wednesday Sept 8th @ 11:59 PM 
+* **C Period** - Thursday
 Sept 9th @ 11:59 PM
 
 For Milestone 1, you must translate the rules for a 2 player game of 5-2-1-1
@@ -33,8 +35,8 @@ Connectors, and Terminal blocks. For more information on each block, see
 
 After completing the flow chart, you will examine the source code for a 5-2-1-1
 simulator and identify components which show Sequences, Selection, and Iteration
-matching those from your completed flow chart. For more information on Sequence,
-Selection, and Iteration, see [Appendix B](#appendix-b:-keywords)
+matching those from the provide flow chart components. For more information on
+Sequence, Selection, and Iteration, see [Appendix B](#appendix-b:-keywords)
 
 ### 5-2-1-1 Flow Chart
 
@@ -50,23 +52,107 @@ milestone, you may work in groups of up to 3 students.
 * The flow chart must either be hand drawn or assembled from cut outs using the
   PDF above.
 
-### Identifying Sequences
+### Identifying Code
 
-### Identifying Selection
+Below are three code segments for a computer implementation of 5211. For each
+code segment, do the following:
 
-### Identifying Iteration
+1. Identify a **signifiant** sequence or state that there are no significant
+   sequences. Explain why the sequence you selected is significant or why there
+   are no significant sequences.
+
+2. Identify a section that shows **selection** or state that there is no
+   selection. If applicable, explain the conditions of the selection and the
+   result of each condition.
+
+3. Identify a section that shows **iteration** or state that there is no
+   iteration. If applicable, Under what conditions does the iteration occur
+   continue? Under what conditions does the iteration stop? What is the end
+   result of the iteration?
+
+#### Code Segment 1
+
+The following is a segment of source code which is used in a 5211 simulator.
+
+```typescript
+       if (state.countValue(1) === 4) {
+            state.discardValue(2);
+            state.discardValue(3);
+            state.discardValue(4);
+            state.discardValue(5);
+            state.discardValue(6);
+        }
+```
+
+![Code Segment 1](support/code_segment_1.png)
+
+#### Code Segment 2
+
+The following is a segment of source code which is used in a 5211 simulator.
+
+```typescript
+    state.deck.shuffle();
+    state.deck.discard(10);
+    while (state.getHandSize() < 5) {
+        state.playerDrawCard();
+    }
+```
+
+![Code Segment 2](support/code_segment_2.png)
+
+#### Code Segment 3
+
+The following is a segment of source code which is used in a 5211 simulator.
+
+```typescript
+    state.playersPlayCard();
+    state.playersPlayCard();
+    state.flipUpCards();
+
+    while (true) {
+        if (state.deck.isEmpty() == false) {
+            while (state.getHandSize() < 5) {
+                state.playerDrawCard();
+            }
+        }
+
+        if (state.countCardsInPlay() == 4) {
+            break;
+        }
+        state.playersPlayCard();
+        state.flipUpCards();
+    }
+```
+![Code Segment 3](support/code_segment_3.png)
 
 ### Submitting Milestone 1
 
-To submit Milestone 1, you should create a new folder in your project named `5211`. Within the folder, you should include a README.md file containing your identified Sequences, Selection, and Iteration. For help creating a properly formatted README.md file, see [Appendix C](#appendix-c:-readme.md). 
+To submit Milestone 1, you should create a new folder in your project named
+`5211`. Within the folder, you should include a README.md file containing your
+identified Sequences, Selection, and Iteration. For help creating a properly
+formatted README.md file, see [Appendix C](#appendix-c:-readme.md). 
 
-In addition to your README.md file, you should also include an image for each of your flow charts.
+In addition to your README.md file, you should also include an image for each of
+the flow charts you or your group made. These may be scanned or pictures taken
+with a camera. They should not be made digitally.
 
-When all of your work has been committed and pushed, you will create a tag called milestone-1. 
+When all of your work has been committed and pushed, you will create a tag
+called `milestone-1`. To do this:
+
+1. Open Github Desktop
+2. Open your project repository
+3. Select the `History` Tab
+4. Right click on the commit that will be your submission
+5. Click `Create Tag`
+6. Name the tag `milestone-1`
+7. Click `Push origin`
+8. Verify your tag is available on Github
 
 ## Milestone 2
 
-Due Dates: **E Period** - Monday Sept 13th @ 11:59 PM **C Period** - Tuesday
+Due Dates: 
+* **E Period** - Monday Sept 13th @ 11:59 PM 
+* **C Period** - Tuesday
 Sept 14th @ 11:59 PM
 
 ### Select a Game
@@ -102,8 +188,8 @@ It is important for other people to be able to understand and follow your work.
 In this assignment, you will demonstrate your ability to commit your work to
 your repository, write reasonable commit messages, and provide a REAME.md
 document describing how your flow diagram relates to your chosen game's
-instructions. | Advanced | Proficient | Basic
-| Below Basic                                               |
+instructions. | Advanced | Proficient | Basic | Below Basic
+|
 |---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------|
 |
 | Student created a tag for all milestones | Student tagged some of their
