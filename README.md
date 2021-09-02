@@ -279,8 +279,7 @@ sequence.
 
 Below is an example of an insignificant sequence: 
 
-![Insignificant
-sequence](support/insignificant_sequence.png)
+![Insignificant sequence](support/insignificant_sequence.png)
 
 The sequence above is insignificant because the order in which the operations
 are executed is not important. If you swapped the order, the end result would be
@@ -288,8 +287,7 @@ the same.
 
 Below is an example of a significant sequence: 
 
-![Significant
-sequence](support/significant_sequence.png)
+![Significant sequence](support/significant_sequence.png)
 
 The sequence above is significant because the order in which the operations are
 executed is important. If we were to swap the shuffle operation with the discard
@@ -325,6 +323,92 @@ exactly 5 cards.
 
 ## Appendix C: README.md
 
+It is a relatively standard protocol to have README.md files at the base
+directory of important folders. On Github (and other sites), when you navigate
+to a folder, if a README.md file is present, it is displayed as a website to the
+user. In fact, the instructions for this project are contained in the README.md
+file in the root of this project. In Visual Studio Code, you can actually view a
+formatted version of a Markdown file by right clicking on it in the file browser
+and selecting `Open Preview`.
+
+![Preview README](support/preview_readme.png)
+
+This is a great way to see what your resulting README.md file will look like and
+help you catch any formatting errors you might have.
+
 ### Headers
+
+In Markdown, headers are denoted using one or more octothorpes (`#`) followed by
+the text you would like for the header. The more octothorpes you use, the smaller the header will be. For example:
+
+```
+# Header 1
+## Header 2
+### Header 3
+```
+
+Results in the following:
+
+# Header 1
+## Header 2
+### Header 3
+
+Use headers to create different sections in your Markdown files.
+
 ### Code Boxes
+
+Sometimes you want to be able to provide preformatted code with syntax highlighting. To do this, you surround the code in three backticks: (```) For example:
+
+![Backticks](support/backticks.png)
+
+Produces the following:
+
+```
+    while (true) {
+            if (state.deck.isEmpty() == false) {
+                while (state.getHandSize() < 5) {
+                    state.playerDrawCard();
+                }
+            }
+
+            if (state.countCardsInPlay() == 4) {
+                break;
+            }
+            state.playersPlayCard();
+            state.flipUpCards();
+        }
+```
+
+Notice, there is no syntax highlighting. To ask for syntax highlighting, you can add the language to highlight at the end of the three backticks: (```typescript) For example:
+
+![Backticks](support/backticks2.png)
+
+Produces the following:
+
+```typescript
+    while (true) {
+            if (state.deck.isEmpty() == false) {
+                while (state.getHandSize() < 5) {
+                    state.playerDrawCard();
+                }
+            }
+
+            if (state.countCardsInPlay() == 4) {
+                break;
+            }
+            state.playersPlayCard();
+            state.flipUpCards();
+        }
+```
+
 ### Images
+
+Often times you will need to include images in your Markdown documents. To do this you must first place an image file in your repository. Then, you create a reference to it using the following syntax: `![Image Text](path/to/image)`.
+
+For example, there is an image named `connector.png` located in the `support` folder of this project. To reference the image you could write: `![Connector Image](support/connector.png)`
+
+This would produce the following:
+
+![Connector Image](support/connector.png)
+
+**Note**: The text between the square brackets (`[]`) is what is displayed if the image cannot be found or if the person accessing the document is seeing impaired. 
