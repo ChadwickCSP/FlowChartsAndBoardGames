@@ -253,8 +253,12 @@ Due Dates:
 * **E Period** - Wednesday Sept 15th @ 11:59 PM 
 * **C Period** - Friday Sept 17th @ 11:59 PM
 
-For this milestone, you will deconstruct your flow chart and identify 3
-significant sequences, 3 selections, and 3 iterations.
+### Identifying Components 
+For this milestone, you will deconstruct your flow chart and identify key
+components. atleast 5 components (Proficient). You must identify at least 1
+significant sequence, 1 selection, and 1 iteration. **Note**: To receive a score
+of Advanced for Computational Thinking, you must provide at least 2 examples of
+each.
 
 For each sequence, you must explain why the sequence is significant.
 
@@ -270,13 +274,31 @@ calls attention to the specific sequence, selection, or iteration. For example:
 
 ![Example](support/setup.png)
 
-A general rule of thumb is to make the person grading your assignments life
-easier.
+### My First Fake Program
+After identifying your components, select 2 of them and make an attempt to write
+a little bit of "Fake Code". Use the provided code segments and their associated
+flow charts to guide your choices.
+
+* Start by having a statement for each of your process blocks. These should
+  occur one after the other.
+
+* If you have a decision block, this will likely be an `if` followed by your
+  condition. Look at the examples and see if you can figure out what to do with
+  the curly braces `{` and `}`
+
+* If you have a decision block that repeats an action, this will likely be a
+  `while` followed by your condition. Again, look at the examples and see if you
+  can figure out what they're doing.
+
+**Note**: The code you write does not need to be correct. This is an exercise in
+Critical and Creative Thinking.
 
 ### Milestone 3 Deliverables
 
 To submit Milestone 3, you should update your games README.md file to contain
-your explanation for your sequences, selections, and itereations.
+your explanation for your sequences, selections, and itereations as well as your
+"Fake Code" for 2 of them. For help adding code blocks to your README.md file,
+see [Appendix C](#appendix-c-readmemd)
 
 The images may be scans, pictures taken with a camera, or digitally created
 images.
@@ -300,11 +322,11 @@ called `milestone-3`. To do this:
 In this assignment, you will demonstrate your understanding of flow charts,
 sequencing, selection, and iteration.
 
-| Advanced                                                                          | Proficient                                                                                                    | Basic                                | Below Basic                      |
-|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------|----------------------------------|
-| Identifies sequencing, selection, and iteration in their games flow diagram       | Completes a flow diagram for another game                                                                     | Completes a flow diagram for 5-2-1-1 | Does not complete a flow diagram |
-| Attempts to write pseudo code for an approved section of their games flow diagram | Identifies the required sequencing, selection, and iteration sections of 5-2-1-1 in the provided source code. |                                      |                                  |
-|                                                                                   |                                                                                                               |                                      |                                  |
+| Advanced                                                                    | Proficient                                                                                                        | Basic                                                                                                         | Below Basic                                  |
+|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+| Identifies at least 2 significant sequences, 2 selections, and 2 iterations | Identifies at least 5 components in their flow chart including at least 1 sequence, 1 selection, and 1 iteration. | Identifies the required sequencing, selection, and iteration sections of 5-2-1-1 in the provided source code. |                                              |
+| Attempts to write "Fake Code" for at least 2 of their identified sections.  |                                                                                                                   |                                                                                                               |                                              |
+|                                                                             | Completes a flow diagram for another game                                                                         | Completes a flow diagram for 5-2-1-1                                                                          | Does not complete a flow diagram for 5-2-1-1 |
 
 ### Computing, Programming, and Practice
 
