@@ -318,9 +318,9 @@ instructions.
 |                                                                                                                            | Student created a tag for all milestones                                                                                             | Student tagged some of their milestones                                       | Student did not tag any of their milestones                  |
 |                                                                                                                            | Student commits and pushes their flow diagram images to their repository.                                                            | Student commits and pushes a flow diagram  for 5-2-1-1 into their repository. | Student does not include a complete flow diagram for 5-2-1-1 |
 | Student's README.md is properly formatted and contains images of their flow diagrams  embedded directly into the README.md | Student's README.md contains a formally  written explanation describing how their flow diagram meets the rules of their chosen game. | Student provides a README.md in their repository.                             | Student does not provide a README.md in their repository.    |
-### Skills of a Student
+### Skills of a Programmer
 
-Your skills of a student covers your Student Log repository, your in class time
+Your skills of a programmer covers your Student Log repository, your in class time
 management, meeting deadlines, asking for help when needed, and helping others
 when able.
 
