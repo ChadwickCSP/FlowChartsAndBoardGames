@@ -25,6 +25,8 @@ implementation.
     * [Create a Flow Chart for your game](#create-a-flow-chart-for-your-game)
     * [Milestone 2 Deliverables](#milestone-2-deliverables)
 * [Milestone 3](#milestone-3)
+    * [Identifying Components](#identifying-components)
+    * [My First Fake Program](#my-first-fake-program)
     * [Milestone 3 Deliverables](#milestone-3-deliverables)
 * [Grading](#grading)
     * [Computational Thinking](#computational-thinking)
@@ -93,6 +95,10 @@ milestone, you may work in groups of up to 3 students.
   above. You may not create your own blocks.
 * The flow chart must either be hand drawn or assembled from cut outs using the
   PDF above.
+
+### 5211 Source Code
+There is an implementation of the 5211 flow chart that Mx. Collard
+created for this project: [TwoPlayerEngine.ts](typescript/5211/src/TwoPlayerEngine.ts)
 
 ### Identifying Code
 
@@ -277,7 +283,14 @@ calls attention to the specific sequence, selection, or iteration. For example:
 ### My First Fake Program
 After identifying your components, select 2 of them and make an attempt to write
 a little bit of "Fake Code". Use the provided code segments and their associated
-flow charts to guide your choices.
+flow charts to guide your choices. 
+
+Additionally, if you have completed Milestone 1, Mx. Collard will provide you
+with the flow charts that were used to create the 5211 source code:
+[TwoPlayerEngine.ts](typescript/5211/src/TwoPlayerEngine.ts)
+
+You should study the code and ask questions to help guide you on this section of
+Milestone 3.
 
 * Start by having a statement for each of your process blocks. These should
   occur one after the other.
