@@ -31,12 +31,12 @@ Sept 9th @ 11:59 PM
 For Milestone 1, you must translate the rules for a 2 player game of 5-2-1-1
 into a flow chart using the provided Entry Points, Processes, Decision,
 Connectors, and Terminal blocks. For more information on each block, see
-[Appendix A](#Appendix-A:-Flow-Chart-Components)
+[Appendix A](#Appendix-a-flow-chart-components)
 
 After completing the flow chart, you will examine the source code for a 5-2-1-1
 simulator and identify components which show Sequences, Selection, and Iteration
 matching those from the provide flow chart components. For more information on
-Sequence, Selection, and Iteration, see [Appendix B](#appendix-b:-keywords)
+Sequence, Selection, and Iteration, see [Appendix B](#appendix-b-keywords)
 
 ### 5-2-1-1 Flow Chart
 
@@ -130,7 +130,7 @@ The following is a segment of source code which is used in a 5211 simulator.
 To submit Milestone 1, you should create a new folder in your project named
 `5211`. Within the folder, you should include a README.md file containing your
 identified Sequences, Selection, and Iteration. For help creating a properly
-formatted README.md file, see [Appendix C](#appendix-c:-readme.md). 
+formatted README.md file, see [Appendix C](#appendix-c-readmemd). 
 
 In addition to your README.md file, you should also include an image for each of
 the flow charts you or your group made. These may be scanned or pictures taken
