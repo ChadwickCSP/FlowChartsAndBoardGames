@@ -251,17 +251,77 @@ A process describes an action that is taken. A process must have at least one
 ![Decision](support/decision.png)
 
 A decision block describes a branching path in a flow chart that is based on a
-yes or no condition. A decision must have at least one (but may have more) incomming arrow and must contain exactly two outgoing arrows: one for the yes condition and one for the no condition.
+yes or no condition. A decision must have at least one (but may have more)
+incomming arrow and must contain exactly two outgoing arrows: one for the yes
+condition and one for the no condition.
 
 ### Connector
+![Connector](support/connector.png)
+
+A connector block indicates that the flow chart should continue from another
+Entry Point, typically on a different page. A connector must have at least one
+(but may have more) incomming arrow and no outgoing arrows.
 
 ### Terminal
+![Terminal](support/terminal.png)
+
+A terminal block indicates the end of the sequence. Similar to the Entry Point,
+a terminal block is represented by a box with rounded corners. However, a
+terminal does not have any outgoing arrows. It must have at least one incomming
+arrow and may have multiple incomming arrows.
 
 ## Appendix B: Keywords
 
 ### Sequence
+Sequencing is the sequential exeution of operations. A **significant** sequence
+is a sequence in which the order of operations is important to the result of the
+sequence.
+
+Below is an example of an insignificant sequence: 
+
+![Insignificant
+sequence](support/insignificant_sequence.png)
+
+The sequence above is insignificant because the order in which the operations
+are executed is not important. If you swapped the order, the end result would be
+the same.
+
+Below is an example of a significant sequence: 
+
+![Significant
+sequence](support/significant_sequence.png)
+
+The sequence above is significant because the order in which the operations are
+executed is important. If we were to swap the shuffle operation with the discard
+operation, the end result would be that we always remove the same 10 cards. If
+we were to swap the shuffle operation with the draw operation, the players would
+always draw the same cards.
+
 ### Selection
+
+Selection is the decision to execute one operation versus another operation
+(like a fork in the road).
+
+Below is an example of a selection:
+
+![Selection Example](support/selection_example.png)
+
+In the above example, a selection is made on the condition "Is the deck empty?".
+If the deck is empty, the players sum their scored cards. Otherwise, the players
+play another round.
+
+
 ### Iteration
+
+Iteration is repeating the same operations a certain number of times or until
+something is true.
+
+Below is an example of iteration:
+
+![Iteration Example](support/iteration_example.png)
+
+In the above example, players will continue to draw cards until each player has
+exactly 5 cards. 
 
 ## Appendix C: README.md
 
