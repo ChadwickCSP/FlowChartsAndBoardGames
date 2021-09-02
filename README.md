@@ -96,11 +96,11 @@ milestone, you may work in groups of up to 3 students.
 * The flow chart must either be hand drawn or assembled from cut outs using the
   PDF above.
 
-### 5211 Source Code
-There is an implementation of the 5211 flow chart that Mx. Collard
-created for this project: [TwoPlayerEngine.ts](typescript/5211/src/TwoPlayerEngine.ts)
-
 ### Identifying Code
+
+There is an implementation of the 5211 flow chart that Mx. Collard created for
+this project. The code that matches their flow chart for a 2 player game can be
+found here: [TwoPlayerEngine.ts](typescript/5211/src/TwoPlayerEngine.ts)
 
 Below are three code segments for a computer implementation of 5211. For each
 code segment, do the following:
